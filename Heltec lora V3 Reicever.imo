@@ -157,7 +157,7 @@ void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr) {
     factory_display.display();  
     factory_display.setFont(ArialMT_Plain_24);
     factory_display.setTextAlignment(TEXT_ALIGN_LEFT);
-    factory_display.drawString(0, 10, "      Azul");
+    factory_display.drawString(0, 10, "      Blue");
     factory_display.display();
     delay(2000);
     factory_display.clear();
@@ -170,7 +170,7 @@ void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr) {
     factory_display.display();  
     factory_display.setFont(ArialMT_Plain_24);
     factory_display.setTextAlignment(TEXT_ALIGN_LEFT);
-    factory_display.drawString(0, 10, "      Roja");
+    factory_display.drawString(0, 10, "      Red");
     factory_display.display();
     delay(2000);
     digitalWrite(RedLED, LOW);
@@ -182,7 +182,7 @@ void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr) {
     factory_display.display();  
     factory_display.setFont(ArialMT_Plain_24);
     factory_display.setTextAlignment(TEXT_ALIGN_LEFT);
-    factory_display.drawString(0, 10, "     Verde");
+    factory_display.drawString(0, 10, "     Green");
     factory_display.display();
     delay(2000);
     digitalWrite(GreenLED, LOW);
